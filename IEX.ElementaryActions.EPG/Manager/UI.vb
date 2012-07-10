@@ -25,7 +25,7 @@ Public MustInherit Class UI
     Protected _OSD_PIN As OSD_PIN
     Public ChannelsList As EPG._Channel()
     Public channel As EPG._Channel = New EPG._Channel("")
-    Public Events As New Dictionary(Of String, IEX.ElementaryActions.EPG._Event)
+    
 #End Region
 
     Dim _iex As IEXGateway.IEX
