@@ -4,7 +4,7 @@ Imports System.Runtime.InteropServices
 Public MustInherit Class UI
     'Public Class UI
 #Region "Public"
-    Protected _ArchiveRecordings As ArchiveRecordings
+    Public _ArchiveRecordings As ArchiveRecordings
     Protected _Banner As Banner
     Protected _ChannelBar As ChannelBar
     Protected _CurrentRecordings As CurrentRecordings
