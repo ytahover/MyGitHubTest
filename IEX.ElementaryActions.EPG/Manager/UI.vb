@@ -4,6 +4,7 @@ Imports System.Runtime.InteropServices
 Public MustInherit Class UI
     'Public Class UI
 #Region "Public"
+Yedidya KOKO
     Protected _ArchiveRecordings As ArchiveRecordings
     Protected _Banner As Banner
     Protected _ChannelBar As ChannelBar
